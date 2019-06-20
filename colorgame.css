@@ -1,0 +1,82 @@
+
+body{
+    margin: 0;
+    background-color: #232323;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    margin: 0;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: rgb(32, 86, 173);
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+button:hover{
+    background-color: rgb(32, 86, 173);
+    color: white;
+}
+
+#guessColor{
+    font-size: 150%;
+}
+
+.square{
+    margin: 1.66%;
+    width:30%;
+    float: left;
+    padding-bottom: 30%;
+    border-radius: 15%;
+    transition: background-color .5s;
+    /*browser support*/
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+}
+
+.colors{
+    padding-top: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(32, 86, 173);
+    color: white;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+}
+
+.menu{
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    line-height: 1.1;
+    margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 10px 0;
+    
+}
+
+.selected{
+    background-color: rgb(32, 86, 173);
+    color: white;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
