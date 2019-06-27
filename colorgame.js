@@ -9,9 +9,16 @@ var resetButton = document.querySelector("#reset");
 var easyButton = document.querySelector("#easy");
 var hardButton  = document.querySelector("#hard");
 var modeButtons = document.querySelectorAll(".mode");
+var bodyButton = document.querySelector("body");
+
+
 
 
 init();
+bodyButton.addEventListener("click", function(){
+    resetGame();
+};
+
 
 
 /***************************FUNCTIONS****************************************************/
